@@ -103,8 +103,8 @@ El usuario podría hacer cualquier cosa en la cuenta: crear y borrar recursos, g
 
 | Criterio | Cumple |
 |---|---|
-| El usuario fue creado, editado y eliminado en el orden correcto | |
-| Se evidencia una acción permitida y una denegada | |
+| El usuario fue creado, editado y eliminado en el orden correcto | ✅|
+| Se evidencia una acción permitida y una denegada |✅|
 | La evidencia no expone ninguna clave secreta | ✅ |
-| No quedaron usuarios ni llaves de la actividad en la cuenta | |
-| Las preguntas están respondidas con sus propias palabras | |
+| No quedaron usuarios ni llaves de la actividad en la cuenta |✅ |
+| Las preguntas están respondidas con sus propias palabras | ✅|
