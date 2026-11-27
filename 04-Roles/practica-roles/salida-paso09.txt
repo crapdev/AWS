@@ -1,0 +1,25 @@
+$ aws iam get-role --role-name ec2-lector-s3
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "ec2-lector-s3",
+        "RoleId": "AROAXJPF55I4MMCHZUG3G",
+        "Arn": "arn:aws:iam::501382769208:role/ec2-lector-s3",
+        "CreateDate": "2026-11-26T20:02:14+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "ec2.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "MaxSessionDuration": 3600,
+        "MaxSigninSessionDuration": 3600,
+        "RoleLastUsed": {}
+    }
+}

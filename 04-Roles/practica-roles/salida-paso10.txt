@@ -1,0 +1,4 @@
+$ aws iam list-role-policies --role-name ec2-lector-s3
+{
+    "PolicyNames": []
+}
